@@ -1,1 +1,1 @@
-# diabete-Prediction.github.io
+# diabtetes_prediction_for_women
