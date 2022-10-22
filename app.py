@@ -26,7 +26,7 @@ def main():
     if st.button('Predict'):
         result = model.predict(inputs)
         updated_res = result.flatten().astype(int)
-        if updated_res == 1:
+        if updated_res == 0:
             st.write("អ្នកមិនមានជម្ងឺទឹកនោមផ្អែមទេ។")
         else:
             st.write(
